@@ -127,6 +127,7 @@ Pydantic models solve all these problems, and are very easy to use.
 - The consume's return type is `Optional[dict]`, so we need to unpack it before passing it to the model.
 - The `produce` method expects a `dict`, so we need to convert the model to a dictionary before producing it.
 - The `**` operator is used to unpack the dictionary into keyword arguments, which is a correct and efficient way to instantiate a Pydantic model.
+- The Aineko version used in this example is 0.2.5, which is the latest version at the time of writing this article.
 
 [Aineko]: https://www.aineko.dev/
 [Pydantic]: https://docs.pydantic.dev/latest/
