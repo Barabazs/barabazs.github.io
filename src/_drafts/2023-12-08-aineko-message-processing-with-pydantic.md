@@ -128,6 +128,8 @@ Pydantic models solve all these problems, and are very easy to use.
 - The `produce` method expects a `dict`, so we need to convert the model to a dictionary before producing it.
 - The `**` operator is used to unpack the dictionary into keyword arguments, which is a correct and efficient way to instantiate a Pydantic model.
 - The Aineko version used in this example is 0.2.5, which is the latest version at the time of writing this article.
+- I'm an early engineer at [Aineko], but the opinions expressed in this article are my own.
+
 
 [Aineko]: https://www.aineko.dev/
 [Pydantic]: https://docs.pydantic.dev/latest/
