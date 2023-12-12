@@ -102,7 +102,7 @@ class Node2(AbstractNode):
             event_msg = SimpleEventMessage(**message)
         except ValidationError as e:  
             self.log(
-                f"Error parsing JobCompletedMessage: {str(e)}",
+                f"Error parsing SimpleEventMessage: {str(e)}",
                 level="error",
             )
             self.log(f"Message: {message}", level="error")
