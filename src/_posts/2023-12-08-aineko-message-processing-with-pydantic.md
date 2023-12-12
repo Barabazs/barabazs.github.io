@@ -6,6 +6,7 @@ date:   2023-12-08 12:00:00 +0200
 categories: posts
 tags: [aineko, pydantic]
 published: true
+permalink: /posts/2023/12/08/aineko-message-processing-with-pydantic
 ---
 ## Introduction
 A common pattern across [Aineko] nodes is to consume and produce messages. Messages are implemented as dictionaries, and are passed around between nodes using datasets.
