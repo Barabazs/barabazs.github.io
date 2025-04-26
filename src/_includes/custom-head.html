@@ -1,0 +1,4 @@
+{% assign frame_config = site.data.frame_config %}
+{% assign config_with_url = frame_config | jsonify %}
+{% assign config_with_url = config_with_url | replace: '"/assets', '"https://barabazs.dev/assets' %}
+<meta name="fc:frame" content='{{ config_with_url }}' />
