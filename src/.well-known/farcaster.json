@@ -1,10 +1,15 @@
 {
-    "frame": {
-        "version": "next",
-        "name": "Barabazs's Blog",
-        "buttonTitle": "Read my blog",
-        "iconUrl": "https://barabazs.dev/favicon.ico",
-        "splashBackgroundColor": "#f7f7f7",
-        "homeUrl": "https://barabazs.dev"
-    }
+  "accountAssociation": {
+    "header": "eyJmaWQiOjg0NzcxNywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDc0MzJBNEY1YTVCNzE1MzgxYzMxYzU3Njk1MEE0YTg5ZDYxYTA2MDQifQ",
+    "payload": "eyJkb21haW4iOiJiYXJhYmF6cy5kZXYifQ",
+    "signature": "MHhkMWExMzgwZWNjYmQ2YjU5ODA1MTM5ZDM4MWFjYzY0ODU4YTQ0MmQ3ZDAyZmE0OWE4Y2U2NzFiMzE0MDI0ZDAyNDA2MmQzMGZkYjIxNTE4YmFlZDQzMTdjZmRjOTllMmU4MTc2YmIxZjIxZjY0OGM0MDhjNTRiZTBhMGYxYzQ0MDFj"
+  },
+  "frame": {
+    "version": "next",
+    "name": "Barabazs's Blog",
+    "buttonTitle": "Read my blog",
+    "iconUrl": "https://barabazs.dev/favicon.ico",
+    "splashBackgroundColor": "#f7f7f7",
+    "homeUrl": "https://barabazs.dev"
+  }
 }
