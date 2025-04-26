@@ -1,0 +1,19 @@
+{% raw %}
+<script type="module">
+    import { sdk } from 'https://esm.sh/@farcaster/frame-sdk';
+    const WARPCAST_FID = 9152;
+    window.onload = async () => {
+        try {
+            await sdk.actions.ready();
+            const ctx = await sdk.context;
+            if (ctx) {
+                if (ctx?.client?.clientFid === WARPCAST_FID) {
+                    await sdk.actions.addFrame();
+                }
+            }
+        } catch (error) {
+            console.error(error);
+        }
+    };
+</script>
+{% endraw %}
