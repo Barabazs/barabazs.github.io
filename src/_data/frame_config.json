@@ -6,6 +6,7 @@
         "action": {
             "type": "launch_frame",
             "name": "Barabazs's Blog",
+            "iconImageUrl": "/assets/robo-rooster.png",
             "splashImageUrl": "/assets/robo-rooster.png",
             "splashBackgroundColor": "#f7f7f7"
         }
