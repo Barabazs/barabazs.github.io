@@ -1,0 +1,10 @@
+{
+    "frame": {
+        "version": "next",
+        "name": "Barabazs's Blog",
+        "buttonTitle": "Read my blog",
+        "iconUrl": "https://barabazs.dev/favicon.ico",
+        "splashBackgroundColor": "#f7f7f7",
+        "homeUrl": "https://barabazs.dev"
+    }
+}
