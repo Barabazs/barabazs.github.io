@@ -1,13 +1,13 @@
 {
     "version": "next",
-    "imageUrl": "/assets/robo-rooster.png",
+    "imageUrl": "/assets/images/robo-rooster.png",
     "button": {
         "title": "Read my blog",
         "action": {
             "type": "launch_frame",
             "name": "Barabazs's Blog",
-            "iconImageUrl": "/assets/robo-rooster.png",
-            "splashImageUrl": "/assets/robo-rooster.png",
+            "iconImageUrl": "/assets/images/robo-rooster.png",
+            "splashImageUrl": "/assets/images/robo-rooster.png",
             "splashBackgroundColor": "#f7f7f7"
         }
     }

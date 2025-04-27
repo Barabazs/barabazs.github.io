@@ -32,6 +32,8 @@ permalink: /:categories/:year/:month/:day/:title
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-og-image
 markdown: GFM
 
 source: src
@@ -58,3 +60,17 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
+# customise og_image
+og_image:
+  output_dir: "assets/images/og"
+  image: "/assets/images/robo-rooster.png"
+  domain: "barabazs.dev"
+  border_bottom:
+    width: 20
+    fill:
+      - "#820C02"
+      - "#A91401"
+      - "#D51F06"
+      - "#DE3F24"
+      - "#EDA895"
