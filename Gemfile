@@ -18,7 +18,9 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-og-image", "~> 1.4.0"
+  gem "jekyll-og-image",
+      git: "https://github.com/Barabazs/jekyll-og-image.git",
+      ref: "362923a064b705d1524909049e2ad29505f01407"
   gem "jekyll-seo-tag", "~> 2.8.0"
 end
 

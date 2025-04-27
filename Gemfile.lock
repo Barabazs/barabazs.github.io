@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/Barabazs/jekyll-og-image.git
+  revision: 362923a064b705d1524909049e2ad29505f01407
+  ref: 362923a064b705d1524909049e2ad29505f01407
+  specs:
+    jekyll-og-image (1.4.1)
+      jekyll (>= 3.4, < 5.0)
+      jekyll-seo-tag (~> 2.8)
+      ruby-vips (~> 2.2.0)
+      zeitwerk (~> 2.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -150,11 +161,6 @@ GEM
     jekyll-mentions (1.6.0)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
-    jekyll-og-image (1.4.1)
-      jekyll (>= 3.4, < 5.0)
-      jekyll-seo-tag (~> 2.8)
-      ruby-vips (~> 2.2.0)
-      zeitwerk (~> 2.6)
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate (1.1.0)
@@ -294,7 +300,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
-  jekyll-og-image (~> 1.4.0)
+  jekyll-og-image!
   jekyll-seo-tag (~> 2.8.0)
   minima (~> 2.5)
   webrick (~> 1.8)

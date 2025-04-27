@@ -60,13 +60,15 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
 # customise og_image
 og_image:
   verbose: true
   output_dir: "assets/images/og"
   image: "/assets/images/robo-rooster.png"
   domain: "barabazs.dev"
+  canvas:
+    width: 1200
+    height: 800
   border_bottom:
     width: 20
     fill:
