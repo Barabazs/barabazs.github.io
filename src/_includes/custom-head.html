@@ -1,4 +1,21 @@
 {% assign frame_config = site.data.frame_config %}
+{% assign filename = page.path | split: '/' | last %}
+{% assign parts = filename | split: '-' %}
+{% if parts.size >= 4 %}
+  {% assign filename = parts | slice: 3, parts.size | join: '-' %}
+{% endif %}
+{% assign og_image_path = filename | replace: '.md', '.png' | prepend: '/assets/images/og/posts/' %}
+{% if page.layout == 'post' or page.layout == 'page' %}
+{% capture frame_json %}
+{
+"version": "{{ frame_config.version }}",
+"imageUrl": "{{ og_image_path }}",
+"button": {{ frame_config.button | jsonify }}
+}
+{% endcapture %}
+{% assign config_with_url = frame_json %}
+{% else %}
 {% assign config_with_url = frame_config | jsonify %}
+{% endif %}
 {% assign config_with_url = config_with_url | replace: '"/assets', '"https://barabazs.dev/assets' %}
 <meta name="fc:frame" content='{{ config_with_url }}' />
