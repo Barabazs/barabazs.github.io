@@ -6,11 +6,11 @@
   },
   "frame": {
     "version": "next",
-    "name": "Barabazs&apos;s Blog",
-    "imageUrl": "https://barabazs.dev/assets/robo-rooster.png",
+    "name": "Barabazs's Blog",
+    "imageUrl": "https://barabazs.dev/assets/images/robo-rooster.png",
     "buttonTitle": "Read my blog",
-    "iconUrl": "https://barabazs.dev/assets/robo-rooster.png",
-    "splashImageUrl": "https://barabazs.dev/assets/robo-rooster.png",
+    "iconUrl": "https://barabazs.dev/assets/images/robo-rooster.png",
+    "splashImageUrl": "https://barabazs.dev/assets/images/robo-rooster.png",
     "splashBackgroundColor": "#f7f7f7",
     "homeUrl": "https://barabazs.dev"
   }
