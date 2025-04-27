@@ -63,6 +63,7 @@ include:
 
 # customise og_image
 og_image:
+  verbose: true
   output_dir: "assets/images/og"
   image: "/assets/images/robo-rooster.png"
   domain: "barabazs.dev"
