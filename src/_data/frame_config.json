@@ -5,7 +5,7 @@
         "title": "Read my blog",
         "action": {
             "type": "launch_frame",
-            "name": "Barabazs's Blog",
+            "name": "Barabazs Blog",
             "iconImageUrl": "/assets/images/robo-rooster.png",
             "splashImageUrl": "/assets/images/robo-rooster.png",
             "splashBackgroundColor": "#f7f7f7"
