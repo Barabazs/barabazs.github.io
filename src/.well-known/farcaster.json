@@ -12,6 +12,10 @@
     "iconUrl": "https://barabazs.dev/assets/images/robo-rooster.png",
     "splashImageUrl": "https://barabazs.dev/assets/images/robo-rooster.png",
     "splashBackgroundColor": "#f7f7f7",
-    "homeUrl": "https://barabazs.dev"
+    "homeUrl": "https://barabazs.dev",
+    "primaryCategory": "social",
+    "tags": [
+      "blog"
+    ]
   }
 }
