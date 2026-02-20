@@ -26,4 +26,4 @@ end
 
 # Add webrick dependency
 gem "webrick", "~> 1.8"
-gem "nokogiri", "~> 1.18.9"
+gem "nokogiri", "~> 1.19.1"
